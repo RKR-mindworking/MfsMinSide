@@ -1,0 +1,77 @@
+
+
+$application-bar-color: #303030;
+$nav-color: #303030;
+$application-bar-to-nav-area-divider-tint: 0;
+$active-color: #FF5722;
+
+
+/* Main Area */
+$scaffold-app-background-color: #F5F5F5;
+
+/* Application top bar Area */
+$scaffold-app-header-background-color: $application-bar-color;
+$scaffold-app-header-color: #999999;
+$scaffold-app-header-height: 50px;
+$scaffold-app-header-padding-left: 15px;
+$scaffold-app-header-padding-right: 10px;
+
+/* Menu Toggle Button and Application Breadcrumb Area */
+$scaffold-app-sub-header-height: 40px;
+
+/* Nav widths */
+$scaffold-app-nav-shown-width: 220px;
+$scaffold-app-nav-hidden-width: 50px;
+
+/* Menu Toggle Button Area */
+$scaffold-app-sub-header-left-background-color: $nav-color;
+$scaffold-app-sub-header-left-top-divider-color: $scaffold-app-sub-header-left-background-color + $application-bar-to-nav-area-divider-tint;
+$scaffold-app-sub-header-left-bottom-divider-color: $scaffold-app-sub-header-left-background-color + $application-bar-to-nav-area-divider-tint;
+
+/* Breadcrumb Area */
+$scaffold-app-sub-header-right-background-color: #F5F5F5;
+$scaffold-app-sub-header-right-bottom-divider-color: #DDDDDD;
+$scaffold-app-sub-header-right-padding-left: 15px;
+$scaffold-app-sub-header-right-padding-right: 20px;
+
+/* Menu Nav Area */
+$scaffold-app-nav-background-color: $nav-color;
+
+
+
+
+/* Content Main menu (tab-like-menu) */
+$scaffold-app-content-main-menu-height: 50px;
+$scaffold-app-content-main-menu-background-color: #EEEEEE;
+$scaffold-app-content-main-menu-bottom-divider-color: #DDDDDD;
+$scaffold-app-content-main-menu-padding-left: 20px;
+$scaffold-app-content-main-menu-padding-right: 20px;
+$scaffold-app-content-main-menu-tap-margin-right: 40px;
+
+/* Content Area */
+$scaffold-app-content-main-padding-left: 20px;
+$scaffold-app-content-main-padding-right: 20px;
+$scaffold-app-content-main-padding-top: 20px;
+$scaffold-app-content-main-padding-bottom: 20px;
+
+/*
+
+TRANSITIONS
+
+*/
+$scaffold-app-nav-show-hide-duration: 0.2s;
+
+
+
+
+
+
+/*
+
+TEXT
+
+*/
+
+$text-content-menu-color: #666666;
+$text-content-menu-color-hover: #999999;
+$text-content-menu-color-active: #FF5722;

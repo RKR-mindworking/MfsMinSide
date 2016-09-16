@@ -1,0 +1,73 @@
+
+.navigation-shown {
+
+  
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+  }
+
+
+
+
+  .nodes {
+
+
+
+    .navigation-link {
+
+      padding-left: 10px;
+      color: #999999;
+      display: flex;
+      align-items: center;
+
+      height: 40px;
+
+      border-Left: 3px solid $scaffold-app-nav-background-color;
+      :hover {
+        color: #CCCCCC;
+      }
+
+    }
+
+    .navigation-link-active {
+
+      :hover {
+        color: #FFFFFF;
+      }
+
+      display: flex;
+      align-items: center;
+      height: 40px;
+      color: #FFFFFF;
+
+      border-Left: 3px solid $active-color;
+    }
+  }
+
+  .leafNodes {
+    border-Left: 3px solid $active-color;
+    padding-left: 40px;
+
+
+
+    .navigation-link {
+      border-Left: 3px solid $scaffold-app-nav-background-color;
+      height: 30px;
+    }
+
+    .navigation-link-active{
+
+      border-Left: 3px solid $scaffold-app-nav-background-color;
+
+    }
+
+  }
+}

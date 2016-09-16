@@ -1,0 +1,140 @@
+@import "base/variables";
+
+// Scaffold
+@import "components/scaffold";
+@import "components/html";
+@import "components/body";
+@import "components/contentmenu";
+@import "components/navigation";
+@import "components/breadcrumbs";
+@import "components/loader";
+@import "components/entrybox";
+
+a{
+  color: #009688;
+}
+
+.display-as-link{
+  color: #009688;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.fading {
+
+  display: block;
+
+      -webkit-animation: fadeInFromNone 2.5s infinite;
+      -moz-animation: fadeInFromNone 2.5s infinite;
+      -o-animation: fadeInFromNone 2.5s infinite;
+      animation: fadeInFromNone 2.5s infinite;
+
+}
+@keyframes fading {
+    0%   { background: red; }
+    50% { background: white; }
+    100%   { background: red; }
+}
+
+@-webkit-keyframes fading {
+    0%   { background: red; }
+    50% { background: white; }
+    100%   { background: red; }
+}
+@keyframes opacityfading {
+    0%   { opacity: 0; }
+    50% { opacity: 1; }
+    100%   { opacity: 0; }
+}
+
+@-webkit-keyframes opacityfading {
+    0%   { opacity: 0; }
+    50% { opacity: 1; }
+    100%   { opacity: 0; }
+}
+
+
+
+@-webkit-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    50% {
+        display: block;
+        opacity: 1;
+    }
+    100% {
+        display: block;
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  50% {
+      display: block;
+      opacity: 1;
+  }
+  100% {
+      display: block;
+      opacity: 0;
+  }
+}
+
+@-o-keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  50% {
+      display: block;
+      opacity: 1;
+  }
+  100% {
+      display: block;
+      opacity: 0;
+  }
+}
+
+@keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  50% {
+      display: block;
+      opacity: 1;
+  }
+  100% {
+      display: block;
+      opacity: 0;
+  }
+}

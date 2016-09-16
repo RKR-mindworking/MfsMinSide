@@ -1,0 +1,27 @@
+.entrybox ul{
+  list-style-type: none;
+  padding: 0;
+  margin-left: 10px;
+}
+.entrybox ul li{
+  display: inline-block;
+}
+
+.entrybox-item {
+  cursor: pointer;
+  width: 130px;
+}
+
+
+.entrybox-vertical {
+  display: flex;
+}
+
+.entrybox-vertical ul{
+  list-style-type: none;
+  padding: 0;
+
+}
+.entrybox-vertical ul li{
+  padding-bottom: 10px;
+}

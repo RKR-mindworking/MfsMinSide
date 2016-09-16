@@ -1,0 +1,128 @@
+/* Overall Application Scaffold structure */
+
+.app {
+  background-color: $scaffold-app-background-color;
+  display: flex;
+  flex-direction: column;
+  min-height:100%;
+}
+
+/* LOGO and Search */
+.top-bar {
+  background-color: $scaffold-app-header-background-color;
+  height: $scaffold-app-header-height;
+  padding-left: $scaffold-app-header-padding-left;
+  padding-right: 20px;
+  color: $scaffold-app-header-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 666;
+}
+
+.sub-top-bar {
+  margin-top: $scaffold-app-header-height;
+  display: flex;
+  height: $scaffold-app-sub-header-height;
+}
+
+/* Menu show hide toggle */
+.menu-toggle-area {
+  width: $scaffold-app-nav-shown-width;
+  background-color: $scaffold-app-sub-header-left-background-color;
+  border-top: 1px solid $scaffold-app-sub-header-left-top-divider-color;
+  border-bottom: 1px solid $scaffold-app-sub-header-left-bottom-divider-color;
+    height: 100%;
+  display: flex;
+  align-items: center;
+  transition: width $scaffold-app-nav-show-hide-duration;
+  transform: translateZ(0);
+}
+
+.menu-toggle-area-hidden {
+  width: $scaffold-app-nav-hidden-width;
+  background-color: $scaffold-app-sub-header-left-background-color;
+  border-top: 1px solid $scaffold-app-sub-header-left-top-divider-color;
+  border-bottom: 1px solid $scaffold-app-sub-header-left-bottom-divider-color;
+    height: 100%;
+  display: flex;
+  align-items: center;
+  transition: width $scaffold-app-nav-show-hide-duration;
+  transform: translateZ(0);
+}
+
+
+/* Breadcrumb and Tools */
+.breadcrumb-area {
+
+  background-color: #F5F5F5;
+  flex:1;
+  border-bottom:  1px solid #DDD;
+
+  display: flex;
+  align-items: center;
+  padding-right: $scaffold-app-sub-header-right-padding-right;
+  padding-left: $scaffold-app-sub-header-right-padding-left;
+  justify-content: space-between;
+}
+
+.side-nav-and-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.side-nav {
+
+  background-color: $scaffold-app-nav-background-color;
+  width: $scaffold-app-nav-shown-width;
+  transition: width $scaffold-app-nav-show-hide-duration;
+  transform: translateZ(0);
+}
+
+.side-nav-hidden {
+
+  background-color: $scaffold-app-nav-background-color;
+  width: $scaffold-app-nav-hidden-width;
+  transition: width $scaffold-app-nav-show-hide-duration;
+  transform: translateZ(0);
+}
+
+.content {
+  display:flex;
+  flex: 1;
+  flex-direction: column;
+
+
+}
+
+/* Content Main menu (tab-like-menu) */
+.App-area-right-menu {
+  height: $scaffold-app-content-main-menu-height;
+  background-color: $scaffold-app-content-main-menu-background-color;
+  border-bottom:  1px solid #DDD;
+  padding-right: $scaffold-app-content-main-menu-padding-right;
+  padding-left: $scaffold-app-content-main-menu-padding-left;
+  display: flex;
+  align-items: center;
+}
+
+/* Content Area */
+.App-area-right-main-content {
+  padding-left: $scaffold-app-content-main-padding-left;
+  padding-right: $scaffold-app-content-main-padding-right;
+  padding-top: $scaffold-app-content-main-padding-top;
+  padding-bottom: $scaffold-app-content-main-padding-bottom;
+}
+
+
+.flex-flow {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+
+}

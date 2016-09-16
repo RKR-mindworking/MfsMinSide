@@ -1,0 +1,112 @@
+
+.ContentMenu{
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+
+  .content-link {
+    color: $text-content-menu-color;
+    text-decoration: none;
+
+    :hover {
+      color: $text-content-menu-color-hover;
+    }
+
+    li {
+      display: inline;
+      margin-right: $scaffold-app-content-main-menu-tap-margin-right;
+      padding-bottom: 15px;
+      text-transform: capitalize;
+    }
+  }
+
+  .content-link-active {
+    color: $text-content-menu-color-active;
+    text-decoration: none;
+
+    :hover {
+      color: $text-content-menu-color-active;
+    }
+
+    li {
+      display: inline;
+      margin-right: $scaffold-app-content-main-menu-tap-margin-right;
+      border-bottom: 3px solid $text-content-menu-color-active;
+      padding-bottom: 15px;
+      text-transform: capitalize;
+    }
+  }
+
+}
+
+
+
+.ContentSubMenu{
+
+
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+
+
+
+
+  .content-link {
+    color: $text-content-menu-color;
+    text-decoration: none;
+
+    :hover {
+      color: $text-content-menu-color-hover;
+    }
+
+    li {
+      display: inline;
+      margin-right: $scaffold-app-content-main-menu-tap-margin-right;
+      padding-bottom: 16px;
+      text-transform: capitalize;;
+    }
+  }
+
+  .content-link-active {
+    color: $text-content-menu-color-active;
+    text-decoration: none;
+
+    :hover {
+      color: $text-content-menu-color-active;
+    }
+
+    li {
+      display: inline;
+      margin-right: $scaffold-app-content-main-menu-tap-margin-right;
+      padding-bottom: 16px;
+      text-transform: capitalize;
+    }
+  }
+
+}
+
+
+
+.hMenu{
+  color: $text-content-menu-color;
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+  }
+  li {
+    font-size: 12px;
+    display: inline;
+    margin-right: $scaffold-app-content-main-menu-tap-margin-right;
+    :hover {
+      color: $text-content-menu-color-hover;
+    }
+  }
+}

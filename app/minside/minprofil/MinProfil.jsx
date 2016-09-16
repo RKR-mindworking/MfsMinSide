@@ -14,6 +14,7 @@ class MinProfil extends Component {
     return(
       <div className="App-area-right-main-content">
         <div>MinProfil</div>
+        Hej Mor
 
       </div>
 
